@@ -11,9 +11,7 @@ jobs:
     steps:
       - run: echo "The job is automatically triggered by a ${{ github.event_name }} event."
       - run: echo "The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - run: echo "GIT_BRANCH=$(echo $GITHUB_REF | sed 's/refs\/heads\///')" >> $GITHUB_ENV
-      - name: Show Git Branch
-      - run: echo $GIT_BRANCH
+     # - run: echo "GIT_BRANCH=$(echo $GITHUB_REF | sed 's/refs\/heads\///')" >> $GITHUB_ENV
 
   install-dependencies:
     runs-on: ubuntu-latest
