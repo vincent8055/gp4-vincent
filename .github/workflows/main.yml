@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "The job is automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
   install-dependencies:
     runs-on: ubuntu-latest
