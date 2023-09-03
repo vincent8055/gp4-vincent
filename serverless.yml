@@ -1,4 +1,4 @@
-service: Gp4-vincent-env-${git:branch}
+service: Gp4-vincent-env-${env:GIT_BRANCH}
 frameworkVersion: '3'
 
 provider:
