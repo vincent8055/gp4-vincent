@@ -9,7 +9,7 @@ provider:
     name: cohort2.serverless.deploys
 
 functions:
-  api:
+  NTU:
     handler: index.handler
     events:
       - httpApi:
