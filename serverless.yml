@@ -7,7 +7,7 @@ provider:
   region: ap-southeast-1
   deploymentBucket:
     name: cohort2.serverless.deploys
-
+  
 functions:
   NTU:
     handler: index.handler
@@ -17,6 +17,7 @@ functions:
           method: get
     environment:
       ACCESS_KEY: ${ssm:vincent-parameter}
+      STAGE: ${env:DEPLOY_ENV}
 plugins:
   - serverless-offline
 
