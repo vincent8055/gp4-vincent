@@ -6,6 +6,7 @@ This YAML configuration is for the Serverless Framework.  It makes it easy to de
 
 It will also craete unique Function names like ```Group4-prod-Capstone``` and ```Group4-dev-Capstone``` which defines the service name, the stage where it was deployed and the unique function name.
 
+![Screenshot 2023-09-05 at 11 14 06 PM](https://github.com/vincent8055/gp4-vincent/assets/127754761/25e1c2f6-5a3f-498e-b5c5-92762d48bd10)
 
 
 <details>  
